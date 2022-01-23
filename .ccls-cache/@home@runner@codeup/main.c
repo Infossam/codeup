@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
-  return 0;
+char x='a', y;
+scanf("%c %c", &x, &y);
+printf("%c %c", y, x); 
 }
